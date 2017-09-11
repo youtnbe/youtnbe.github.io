@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #4a4559;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    display: flex;
+}
+
+.menu-container {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    cursor: pointer;
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 2px;
+
+    font-family: 'Rubik One', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #6664b7;
+    color: #87ebeb;
+    position: relative;
+}
+
+.menu-item:hover {
+    background-color: #93ea8c;
+    color: #6664b7;
+}
+
+.menu-item:hover:after {
+    content: '•♌ •♎☻';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 100px;
+    line-height: 0;
+    z-index: 1;
+    white-space: nowrap;
+    color: #fc491e;
+    mix-blend-mode: color-dodge;
+    pointer-events: none;
+}
+
+.size-control {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 44px;
+
+    cursor: pointer;
+    list-style-type: none;
+    margin: 2px;
+
+    font-family: 'Rubik One', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #6664b7;
+    color: #87ebeb;
+    position: relative;
+}
+
+.size-control:hover {
+    background-color: #93ea8c;
+    color: #6664b7;
+}
+
